@@ -1,0 +1,536 @@
+[tianqi]2026-02-27 14:17:21.711	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[tianqi]2026-02-27 14:17:25.771	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[tianqi]2026-02-27 14:17:25.771	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[tianqi]2026-02-27 14:17:26.395	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[tianqi]2026-02-27 14:17:26.397	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[tianqi]2026-02-27 14:17:26.402	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[tianqi]2026-02-27 14:17:26.637	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:18:27.730	[34minfo[0m	D:/devops/docker-gpu-manage/server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:18:27.731	[34minfo[0m	D:/devops/docker-gpu-manage/server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:18:29.597	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:18:29.598	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:18:29.603	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/plugin.go:10	项目暂未初始化，无法安装插件，初始化后重启项目即可完成插件安装
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:18:29.604	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:18:38.754	[34minfo[0m	D:/devops/docker-gpu-manage/server/api/v1/system/sys_initdb.go:57	前往初始化数据库
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:19:31.132	[34minfo[0m	D:/devops/docker-gpu-manage/server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:19:31.132	[34minfo[0m	D:/devops/docker-gpu-manage/server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:19:32.696	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:19:35.604	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:19:35.604	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:19:35.777	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:19:35.779	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:19:35.785	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:19:35.950	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:26:08.601	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/computenode/computeNode.go:73	Docker连接测试成功	{"id": 1, "address": "tcp://117.175.143.55:2376"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:26:28.382	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/computenode/computeNode.go:73	Docker连接测试成功	{"id": 1, "address": "tcp://117.175.143.55:2376"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:29:02.984	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/computenode/computeNode.go:73	Docker连接测试成功	{"id": 1, "address": "tcp://117.175.143.55:2376"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:29:07.334	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/instance/instance.go:741	显存匹配检查	{"节点ID": 1, "总显存容量": 384, "总卡数": 8, "每张卡容量": 48, "需要显存": 1, "需要GPU数": 1, "每张卡需要显存": 1, "规格支持显存分割": false, "卡使用情况": [0, 0, 0, 0, 0, 0, 0, 0]}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:29:07.335	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/instance/instance.go:811	检查未使用卡（不支持显存分割）	{"节点ID": 1, "可用未使用卡数": 8, "需要GPU数": 1}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:29:07.335	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/instance/instance.go:877	根据卡使用情况计算可用GPU（不支持显存分割）	{"节点ID": 1, "可用未使用卡数": 8, "可用GPU": 8}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:29:07.336	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/instance/instance.go:741	显存匹配检查	{"节点ID": 1, "总显存容量": 384, "总卡数": 8, "每张卡容量": 48, "需要显存": 1, "需要GPU数": 1, "每张卡需要显存": 1, "规格支持显存分割": false, "卡使用情况": [0, 0, 0, 0, 0, 0, 0, 0]}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:29:07.337	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/instance/instance.go:811	检查未使用卡（不支持显存分割）	{"节点ID": 1, "可用未使用卡数": 8, "需要GPU数": 1}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:29:07.338	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/instance/instance.go:877	根据卡使用情况计算可用GPU（不支持显存分割）	{"节点ID": 1, "可用未使用卡数": 8, "可用GPU": 8}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:31:22.400	[34minfo[0m	D:/devops/docker-gpu-manage/server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:31:22.401	[34minfo[0m	D:/devops/docker-gpu-manage/server/core/server_run.go:59	WEB服务已关闭
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:31:24.619	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:31:27.978	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:31:27.978	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:31:28.019	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:31:28.019	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:31:28.033	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 14:31:28.344	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:37.709	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:38.299	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:38.979	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:39.675	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:40.290	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:41.010	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:41.778	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:42.540	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:43.190	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:43.845	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:44.518	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:45.195	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:45.991	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:46.787	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:47.492	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:48.236	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:48.967	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:49.728	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:50.670	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:51.182	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:51.935	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:52.646	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:53.911	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:55.207	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:56.526	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:57.469	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:16:58.335	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:17:00.261	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:17:03.153	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:17:03.153	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:17:03.542	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:17:03.544	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:17:03.549	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:17:03.654	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:22:52.170	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:22:55.138	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:22:55.143	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:22:55.538	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:22:55.540	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:22:55.545	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:22:55.780	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:23:04.576	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:23:06.285	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:23:06.286	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:23:06.768	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:23:06.769	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:23:06.779	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:23:06.885	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:24:31.226	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:24:33.597	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:24:33.598	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:24:34.002	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:24:34.003	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:24:34.007	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:24:34.116	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:03.675	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:06.560	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:06.561	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:06.793	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:06.794	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:06.798	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:06.960	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:22.100	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:24.883	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:24.884	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:25.853	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:25.854	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:25.860	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:25:26.071	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:00.851	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:02.539	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:03.358	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:03.989	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:04.599	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:07.926	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:07.927	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:07.966	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:07.967	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:07.972	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:08.090	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:09.598	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:11.528	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:11.528	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:11.778	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:11.779	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:11.783	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:54:11.884	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:58:25.419	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:58:26.146	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:58:28.712	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:58:28.713	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:58:28.848	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:58:28.849	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:58:28.862	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:58:29.027	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:59:18.984	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:59:21.817	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:59:21.817	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:59:21.897	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:59:21.899	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:59:21.908	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 15:59:22.040	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:35.280	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:36.595	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:37.839	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:39.039	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:40.298	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:41.525	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:42.740	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:43.926	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:45.144	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:46.371	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:47.601	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:48.807	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:50.027	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:51.236	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:52.455	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:53.693	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:54.924	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:56.184	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:57.397	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:58.711	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:22:59.952	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:01.210	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:02.501	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:03.766	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:05.061	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:06.240	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:07.521	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:08.774	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:09.965	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:11.163	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:12.391	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:13.637	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:14.912	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:16.186	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:17.440	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:18.731	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:19.941	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:21.181	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:22.426	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:23.653	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:25.029	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:26.381	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:27.712	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:29.032	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:30.299	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:31.963	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:33.324	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:34.660	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:35.923	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:37.189	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:38.425	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:39.668	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:40.877	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:42.124	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:43.407	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:44.631	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:45.913	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:47.143	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:48.440	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:49.653	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:50.887	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:52.088	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:53.299	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:54.500	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:55.720	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:57.261	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:58.129	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:23:59.372	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:00.590	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:01.782	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:03.019	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:04.233	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:05.476	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:06.731	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:07.973	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:09.165	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:10.410	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:11.738	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:12.955	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:14.172	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:15.364	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:16.599	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:17.854	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:19.131	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:20.407	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:21.707	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:22.996	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:24.260	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:25.470	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:26.744	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:28.021	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:29.308	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:30.580	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:31.871	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:33.161	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:34.363	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:35.560	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:36.834	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:38.057	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:39.298	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:40.556	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:41.869	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:43.150	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:44.449	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:45.692	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:47.011	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:48.320	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:49.560	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:50.808	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:52.023	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:53.266	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:54.518	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:55.835	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:57.029	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:58.242	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:24:59.485	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:00.824	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:02.048	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:03.288	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:04.663	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:06.047	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:07.311	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:08.649	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:09.996	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:11.269	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:12.480	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:13.719	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:14.971	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:16.287	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:17.490	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:18.779	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:20.134	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:21.467	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:22.772	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:24.074	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:25.321	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:26.577	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:27.814	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:29.114	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:30.424	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:31.715	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:32.971	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:34.177	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:35.437	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:36.732	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:37.941	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:39.154	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:40.377	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:41.591	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:42.816	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:44.025	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:45.228	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:46.494	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:47.728	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:49.040	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:50.440	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:51.650	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:52.952	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:54.146	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:55.379	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:56.605	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:57.870	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:25:59.064	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:00.308	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:01.594	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:02.890	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:04.253	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:05.551	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:06.857	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:08.116	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:09.360	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:10.611	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:11.825	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:13.118	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:14.354	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:15.573	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:16.803	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:18.018	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:19.406	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:20.672	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:21.896	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:23.169	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:24.608	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:25.831	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:27.048	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:28.345	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:29.555	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:30.798	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:32.052	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:33.300	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:34.544	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:35.801	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:37.089	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:38.301	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:39.538	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:40.897	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:42.211	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:43.470	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:44.805	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:46.026	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:47.267	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:48.474	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:49.696	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:50.907	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:52.137	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:53.379	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:54.624	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:55.902	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:57.156	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:58.409	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:26:59.695	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:01.061	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:02.343	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:03.746	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:05.044	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:06.331	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:07.566	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:08.827	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:10.077	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:11.309	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:12.652	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:13.976	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:15.352	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:16.581	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:17.861	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:19.090	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:20.373	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:21.607	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:22.860	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:24.025	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:25.202	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:26.449	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:27.642	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:28.889	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:30.112	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:31.319	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:32.519	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:33.741	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:34.989	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:36.203	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:37.499	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:38.710	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:39.967	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:41.214	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:42.435	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:43.729	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:44.927	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:46.107	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:47.321	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:48.574	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:49.728	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:51.005	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:52.290	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:53.595	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:54.862	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:56.131	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:57.426	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:58.729	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:27:59.940	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:01.249	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:02.520	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:03.805	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:05.034	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:06.323	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:07.560	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:08.816	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:10.047	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:11.325	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:12.638	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:13.902	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:15.217	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:16.482	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:17.783	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:19.066	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:20.291	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:21.573	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:22.786	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:24.042	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:25.240	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:26.470	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:27.695	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:28.971	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:30.301	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:31.434	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:32.719	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:33.998	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:35.287	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:36.508	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:37.720	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:38.972	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:40.221	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:41.497	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:42.771	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:44.029	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:45.215	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:46.488	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:47.758	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:48.952	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:50.164	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:51.425	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:52.620	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:53.816	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:55.107	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:56.350	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:57.689	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:28:58.932	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:00.171	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:01.464	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:02.753	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:04.025	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:05.279	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:06.585	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:07.814	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:09.069	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:10.338	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:11.719	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:13.054	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:14.267	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:15.428	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:16.703	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:17.877	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:19.187	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:20.317	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:21.553	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:22.814	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:24.084	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:25.372	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:26.648	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:27.981	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:29.162	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:30.382	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:31.618	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:32.907	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:34.247	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:35.508	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:36.890	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:38.124	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:39.342	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:40.703	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:41.982	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:43.248	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:44.645	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:45.942	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:47.293	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:48.555	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:49.874	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:51.186	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:52.496	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:53.838	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:55.095	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:56.366	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:57.594	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:29:58.887	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:00.145	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:01.343	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:02.610	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:03.904	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:05.069	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:06.294	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:07.548	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:08.897	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:10.198	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:11.472	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:12.842	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:14.127	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:15.414	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:16.727	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:18.002	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:19.290	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:20.522	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:21.844	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:23.160	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:24.388	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:25.676	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:26.947	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:28.150	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:29.378	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:30.595	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:31.768	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:34.540	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:34.541	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:34.820	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:34.821	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:34.825	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 16:30:34.980	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 18:07:58.127	[34minfo[0m	D:/devops/docker-gpu-manage/server/core/server_run.go:48	关闭WEB服务...
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 18:39:06.565	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/timer.go:54	合并定时任务已启动，每30秒执行一次
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 18:39:08.441	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/gorm.go:84	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 18:39:08.441	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:153	生成新的SSH主机密钥
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 18:39:08.553	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:58	SSH跳板机服务器已启动	{"port": 2026}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 18:39:08.554	[34minfo[0m	D:/devops/docker-gpu-manage/server/service/jumpbox/jumpbox.go:71	SSH跳板机正在监听	{"address": "[::]:2026"}
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 18:39:08.557	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:74	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 18:39:08.656	[34minfo[0m	D:/devops/docker-gpu-manage/server/initialize/router.go:124	router register success

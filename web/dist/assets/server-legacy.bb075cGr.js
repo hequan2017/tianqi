@@ -1,0 +1,4 @@
+/*! 
+ Build based on tianqi 
+ Time : 1772519311000 */
+System.register([],function(e,t){"use strict";return{execute:function(){e("default","data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='14'%20height='14'%20viewBox='0%200%2014%2014'%3e%3cg%20fill='none'%20stroke='currentColor'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='1'%3e%3cpath%20d='M12.5.5h-11a1%201%200%200%200-1%201v3a1%201%200%200%200%201%201h11a1%201%200%200%200%201-1v-3a1%201%200%200%200-1-1M7.5%203H11M1.5%205.5a1%201%200%200%200-1%201v3a1%201%200%200%200%201%201h11a1%201%200%200%200%201-1v-3a1%201%200%200%200-1-1'/%3e%3cpath%20d='M3.25%208.25a.25.25%200%200%201%200-.5m0%20.5a.25.25%200%200%200%200-.5m0-4.5a.25.25%200%200%201%200-.5m0%20.5a.25.25%200%200%200%200-.5M7.5%208H11m-4%202.5v3m-5%200h10'/%3e%3c/g%3e%3c/svg%3e")}}});

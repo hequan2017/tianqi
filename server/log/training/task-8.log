@@ -1,0 +1,28 @@
+[2026-03-02 16:59:58] 任务启动: 节点=chengdu 容器=modelscope-train-46f2166d-6-1772441996(52230fe421dfa859d346329555ac42f50f600ce3a68380894881fb64847791fe) 端口=8002 镜像=modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.8.1-py311-torch2.9.0-vllm0.13.0-modelscope1.33.0-swift3.12.5
+[2026-03-02 16:59:58] 实例管理已创建实例: name=modelscope-train-46f2166d imageId=4 specId=2 nodeId=1
+[2026-03-02 16:59:58] 开始执行训练命令...
+[2026-03-02 16:59:58] CUDA_VISIBLE_DEVICES=0 swift sft \
+    --model 'Qwen3-1.7B' \
+    --train_type lora \
+    --dataset 'AI-ModelScope/alpaca-gpt4-data-zh#500' 'AI-ModelScope/alpaca-gpt4-data-en#500' 'swift/self-cognition#500' \
+    --torch_dtype bfloat16 \
+    --num_train_epochs 3 \
+    --per_device_train_batch_size 8 \
+    --per_device_eval_batch_size 8 \
+    --learning_rate 0.0001 \
+    --lora_rank 8 \
+    --lora_alpha 16 \
+    --target_modules all-linear \
+    --gradient_accumulation_steps 16 \
+    --eval_steps 100 \
+    --save_steps 50 \
+    --save_total_limit 2 \
+    --logging_steps 5 \
+    --max_length 2048 \
+    --output_dir output \
+    --system 'You are a helpful assistant.' \
+    --warmup_ratio 0.10 \
+    --dataloader_num_workers 4 \
+    --model_author swift \
+    --model_name '11111111'
+[2026-03-02 17:00:23] 训练任务执行完成，退出码=0

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__gva__list_all_menus"
+    ]
+  }
+}

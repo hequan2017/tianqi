@@ -1,0 +1,1 @@
+[2026-03-02 16:13:01] 通过实例管理创建训练容器失败: 创建Docker容器失败: 创建容器失败: Error response from daemon: No such image: modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.8.1-py311-torch2.9.0-vllm0.13.0-modelscope1.33.0-swift3.12.5

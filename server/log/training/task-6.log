@@ -1,0 +1,2 @@
+[2026-03-02 16:28:42] 通过实例管理创建训练容器失败: 创建Docker容器失败: 启动容器失败: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error running prestart hook #0: exit status 1, stdout: , stderr: Auto-detected mode as 'legacy'
+nvidia-container-cli: device error: 2: unknown device: unknown

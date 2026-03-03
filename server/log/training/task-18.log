@@ -1,0 +1,51 @@
+[2026-03-03 11:19:33] 任务启动: 节点=chengdu 容器=modelscope-train-ed7c0ef9-16-1772507972(151749db45fa9798555ca8219f365c3134a70d6a10208ff3268477445f429e66) 端口=8008 镜像=modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.8.1-py311-torch2.9.0-vllm0.13.0-modelscope1.33.0-swift3.12.5
+[2026-03-03 11:19:33] 实例管理已创建实例: name=modelscope-train-ed7c0ef9 imageId=4 specId=2 nodeId=1
+[2026-03-03 11:19:33] 开始执行训练命令...
+[2026-03-03 11:19:33] CUDA_VISIBLE_DEVICES=0 swift sft \
+    --model 'Qwen/Qwen3-1.7B' \
+    --train_type lora \
+    --dataset 'AI-ModelScope/alpaca-gpt4-data-zh#100' \
+    --torch_dtype bfloat16 \
+    --num_train_epochs 1 \
+    --per_device_train_batch_size 1 \
+    --per_device_eval_batch_size 1 \
+    --learning_rate 0.0001 \
+    --lora_rank 8 \
+    --lora_alpha 32 \
+    --target_modules all-linear \
+    --gradient_accumulation_steps 16 \
+    --eval_steps 50 \
+    --save_steps 50 \
+    --save_total_limit 2 \
+    --logging_steps 5 \
+    --max_length 2048 \
+    --output_dir output \
+    --system 'You are a helpful assistant.' \
+    --warmup_ratio 0.05 \
+    --dataloader_num_workers 4 \
+    --model_author swift \
+    --model_name 'swift-robot'
+[2026-03-03 11:27:43] 识别到 last_model_checkpoint: /output/v0-20260303-111956/checkpoint-7
+[2026-03-03 11:27:43] 启动 vLLM 命令: nohup python -m vllm.entrypoints.openai.api_server \
+    --model 'Qwen/Qwen3-1.7B' \
+    --served-model-name base \
+    --enable-lora \
+    --lora-modules lora='/output/v0-20260303-111956/checkpoint-7' \
+    --max-lora-rank 64 \
+    --gpu-memory-utilization 0.8 \
+    --dtype float16 \
+    --max-model-len 4096 \
+    --port 8000 >/tmp/vllm-api-server.log 2>&1 &
+[2026-03-03 11:48:17] 手动标记完成，识别到 checkpoint: /output/v0-20260303-111956/checkpoint-7
+[2026-03-03 11:48:20] 正在启动 vLLM 推理服务...
+[2026-03-03 11:48:20] 启动 vLLM 命令: nohup python -m vllm.entrypoints.openai.api_server \
+    --model 'Qwen/Qwen3-1.7B' \
+    --served-model-name base \
+    --enable-lora \
+    --lora-modules lora='/output/v0-20260303-111956/checkpoint-7' \
+    --max-lora-rank 64 \
+    --gpu-memory-utilization 0.8 \
+    --dtype float16 \
+    --max-model-len 4096 \
+    --port 8000 >/tmp/vllm-api-server.log 2>&1 &
+[2026-03-03 11:48:21] vLLM 推理服务已启动，可通过模型测试功能进行对话

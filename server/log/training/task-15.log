@@ -1,0 +1,39 @@
+[2026-03-03 10:20:21] 任务启动: 节点=chengdu 容器=modelscope-train-f22dbfb5-13-1772504420(f75bbd350c89f5c686c00ef90f13157874c4062cceb88eebeca2ca1791d7b630) 端口=8005 镜像=modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.8.1-py311-torch2.9.0-vllm0.13.0-modelscope1.33.0-swift3.12.5
+[2026-03-03 10:20:21] 实例管理已创建实例: name=modelscope-train-f22dbfb5 imageId=4 specId=2 nodeId=1
+[2026-03-03 10:20:21] 开始执行训练命令...
+[2026-03-03 10:20:21] CUDA_VISIBLE_DEVICES=0 swift sft \
+    --model 'Qwen/Qwen3-1.7B' \
+    --train_type lora \
+    --dataset 'AI-ModelScope/alpaca-gpt4-data-zh#100' \
+    --torch_dtype bfloat16 \
+    --num_train_epochs 1 \
+    --per_device_train_batch_size 1 \
+    --per_device_eval_batch_size 1 \
+    --learning_rate 0.0001 \
+    --lora_rank 8 \
+    --lora_alpha 32 \
+    --target_modules all-linear \
+    --gradient_accumulation_steps 16 \
+    --eval_steps 50 \
+    --save_steps 50 \
+    --save_total_limit 2 \
+    --logging_steps 5 \
+    --max_length 2048 \
+    --output_dir output \
+    --system 'You are a helpful assistant.' \
+    --warmup_ratio 0.05 \
+    --dataloader_num_workers 4 \
+    --model_author swift \
+    --model_name 'swift-robot'
+[2026-03-03 10:28:20] 识别到 last_model_checkpoint: /output/v0-20260303-102042/checkpoint-7
+[2026-03-03 10:28:20] 启动 vLLM 命令: nohup python -m vllm.entrypoints.openai.api_server \
+    --model 'Qwen/Qwen3-1.7B' \
+    --served-model-name base \
+    --enable-lora \
+    --lora-modules lora='/output/v0-20260303-102042/checkpoint-7' \
+    --max-lora-rank 64 \
+    --gpu-memory-utilization 0.8 \
+    --dtype float16 \
+    --max-model-len 4096 \
+    --port 8000 >/tmp/vllm-api-server.log 2>&1 &
+[2026-03-03 10:30:21] 训练完成但 vLLM 健康检查失败: vLLM 在 2m0s 内未就绪: 容器命令退出码=1

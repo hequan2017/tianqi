@@ -1,0 +1,28 @@
+[2026-03-02 18:20:21] 任务启动: 节点=chengdu 容器=modelscope-train-f9750448-10-1772446820(466621602b0dce43e89dfd63c78668f705405b1da42f2b6975d8cefb59b64daa) 端口=8002 镜像=modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.8.1-py311-torch2.9.0-vllm0.13.0-modelscope1.33.0-swift3.12.5
+[2026-03-02 18:20:21] 实例管理已创建实例: name=modelscope-train-f9750448 imageId=4 specId=2 nodeId=1
+[2026-03-02 18:20:21] 开始执行训练命令...
+[2026-03-02 18:20:21] CUDA_VISIBLE_DEVICES=0 swift sft \
+    --model 'Qwen/Qwen3-1.7B' \
+    --train_type lora \
+    --dataset 'AI-ModelScope/alpaca-gpt4-data-zh#100' \
+    --torch_dtype bfloat16 \
+    --num_train_epochs 3 \
+    --per_device_train_batch_size 1 \
+    --per_device_eval_batch_size 1 \
+    --learning_rate 0.0001 \
+    --lora_rank 8 \
+    --lora_alpha 16 \
+    --target_modules all-linear \
+    --gradient_accumulation_steps 16 \
+    --eval_steps 100 \
+    --save_steps 50 \
+    --save_total_limit 2 \
+    --logging_steps 5 \
+    --max_length 2048 \
+    --output_dir output \
+    --system 'You are a helpful assistant.' \
+    --warmup_ratio 0.10 \
+    --dataloader_num_workers 4 \
+    --model_author swift \
+    --model_name 'swift-robot'
+[2026-03-03 10:16:10] 任务被手动停止

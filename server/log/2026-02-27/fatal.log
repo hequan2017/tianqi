@@ -1,0 +1,1 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2026-02-27 18:08:03.129	[31mfatal[0m	D:/devops/docker-gpu-manage/server/core/server_run.go:56	WEB服务关闭异常	{"error": "context deadline exceeded"}
