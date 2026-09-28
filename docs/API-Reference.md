@@ -1,10 +1,10 @@
 # 🔧 API 文档
 
-本页面介绍天启算力管理平台的后端 API 接口。
+本页面介绍天启算力管理平台的后端 API 接口�?
 
 ## API 概述
 
-- **基础路径**：`/api/v1` 或直接访问（视配置而定）
+- **基础路径**：`/api/v1` 或直接访问（视配置而定�?
 - **认证方式**：JWT Token（通过 `x-token` 请求头传递）
 - **响应格式**：JSON
 - **Swagger 文档**：`http://localhost:8888/swagger/index.html`
@@ -47,7 +47,7 @@ Content-Type: application/json
 }
 ```
 
-**响应**：
+**响应**�?
 
 ```json
 {
@@ -56,7 +56,7 @@ Content-Type: application/json
     "user": {
       "ID": 1,
       "username": "admin",
-      "nickName": "管理员",
+      "nickName": "管理�?,
       "authorityId": 888
     },
     "token": "eyJhbGciOiJIUzI1NiIs...",
@@ -66,7 +66,7 @@ Content-Type: application/json
 }
 ```
 
-### 获取验证码
+### 获取验证�?
 
 ```http
 POST /base/captcha
@@ -74,22 +74,22 @@ POST /base/captcha
 
 ---
 
-## 镜像库管理
+## 镜像库管�?
 
-### 获取镜像库列表
+### 获取镜像库列�?
 
 ```http
 GET /imageregistry/getImageRegistryList
 x-token: <your-token>
 
 Query Parameters:
-- page: 页码（默认 1）
-- pageSize: 每页数量（默认 10）
+- page: 页码（默�?1�?
+- pageSize: 每页数量（默�?10�?
 - name: 名称搜索（可选）
 - isListed: 是否上架（可选）
 ```
 
-### 创建镜像库
+### 创建镜像�?
 
 ```http
 POST /imageregistry/createImageRegistry
@@ -99,7 +99,7 @@ Content-Type: application/json
 {
   "name": "Ubuntu 22.04 CUDA",
   "address": "nvidia/cuda:12.0-runtime-ubuntu22.04",
-  "description": "CUDA 12.0 运行时环境",
+  "description": "CUDA 12.0 运行时环�?,
   "source": "Docker Hub",
   "supportMemorySplit": true,
   "isListed": true,
@@ -107,7 +107,7 @@ Content-Type: application/json
 }
 ```
 
-### 更新镜像库
+### 更新镜像�?
 
 ```http
 PUT /imageregistry/updateImageRegistry
@@ -122,7 +122,7 @@ Content-Type: application/json
 }
 ```
 
-### 删除镜像库
+### 删除镜像�?
 
 ```http
 DELETE /imageregistry/deleteImageRegistry
@@ -178,7 +178,7 @@ Content-Type: application/json
   "useTls": true,
   "caCert": "-----BEGIN CERTIFICATE-----...",
   "clientCert": "-----BEGIN CERTIFICATE-----...",
-  "clientKey": "-----BEGIN RSA PRIVATE KEY-----...",
+  "clientKey": "-----BEGIN RSA PRIVATE KEY (REDACTED)-----...",
   "isListed": true
 }
 ```
@@ -195,7 +195,7 @@ Content-Type: application/json
 }
 ```
 
-**响应**：
+**响应**�?
 
 ```json
 {
@@ -234,7 +234,7 @@ x-token: <your-token>
 Content-Type: application/json
 
 {
-  "name": "4090-2卡-16核-64G",
+  "name": "4090-2�?16�?64G",
   "gpuModel": "NVIDIA RTX 4090",
   "gpuCount": 2,
   "memoryCapacity": 48,
@@ -262,10 +262,10 @@ Query Parameters:
 - page: 页码
 - pageSize: 每页数量
 - name: 实例名称
-- status: 容器状态（running/exited/creating/failed）
+- status: 容器状态（running/exited/creating/failed�?
 ```
 
-> 注：普通用户只能看到自己创建的实例，管理员可以看到所有实例。
+> 注：普通用户只能看到自己创建的实例，管理员可以看到所有实例�?
 
 ### 创建实例
 
@@ -283,7 +283,7 @@ Content-Type: application/json
 }
 ```
 
-### 获取匹配的算力节点
+### 获取匹配的算力节�?
 
 根据产品规格查询可用的算力节点：
 
@@ -345,7 +345,7 @@ Content-Type: application/json
 }
 ```
 
-> 注：删除实例会同时删除容器及其挂载的数据卷。
+> 注：删除实例会同时删除容器及其挂载的数据卷�?
 
 ### 获取容器日志
 
@@ -355,7 +355,7 @@ x-token: <your-token>
 
 Query Parameters:
 - id: 实例 ID
-- tail: 返回行数（默认 100）
+- tail: 返回行数（默�?100�?
 ```
 
 ### 获取容器统计信息
@@ -368,7 +368,7 @@ Query Parameters:
 - id: 实例 ID
 ```
 
-**响应**：
+**响应**�?
 
 ```json
 {
@@ -400,9 +400,9 @@ Query Parameters:
 
 ---
 
-## 数据集管理
+## 数据集管�?
 
-### 获取数据集列表
+### 获取数据集列�?
 
 ```http
 GET /modeltraining/dataset/getDatasetList
@@ -411,12 +411,12 @@ x-token: <your-token>
 Query Parameters:
 - page: 页码
 - pageSize: 每页数量
-- name: 数据集名称（模糊搜索）
-- type: 数据集类型（training/evaluation）
-- publishStatus: 发布状态
+- name: 数据集名称（模糊搜索�?
+- type: 数据集类型（training/evaluation�?
+- publishStatus: 发布状�?
 ```
 
-### 创建数据集
+### 创建数据�?
 
 ```http
 POST /modeltraining/dataset/createDataset
@@ -424,15 +424,15 @@ x-token: <your-token>
 Content-Type: application/json
 
 {
-  "name": "我的训练数据集",
+  "name": "我的训练数据�?,
   "type": "training",
   "format": "文本生成",
   "trainMethod": "SFT",
-  "description": "用于模型微调的训练数据"
+  "description": "用于模型微调的训练数�?
 }
 ```
 
-### 更新数据集
+### 更新数据�?
 
 ```http
 PUT /modeltraining/dataset/updateDataset
@@ -446,21 +446,21 @@ Content-Type: application/json
 }
 ```
 
-### 删除数据集
+### 删除数据�?
 
 ```http
 DELETE /modeltraining/dataset/deleteDataset?ID=1
 x-token: <your-token>
 ```
 
-### 发布数据集
+### 发布数据�?
 
 ```http
 POST /modeltraining/dataset/publishDataset?ID=1
 x-token: <your-token>
 ```
 
-### 上传数据集文件
+### 上传数据集文�?
 
 ```http
 POST /modeltraining/dataset/uploadFile
@@ -468,11 +468,11 @@ x-token: <your-token>
 Content-Type: multipart/form-data
 
 Form Data:
-- file: 数据集文件（支持 .jsonl, .xls, .xlsx，最大 200MB）
+- file: 数据集文件（支持 .jsonl, .xls, .xlsx，最�?200MB�?
 - datasetId: 数据集ID（可选，自动创建新版本）
 ```
 
-**响应**：
+**响应**�?
 
 ```json
 {
@@ -486,7 +486,7 @@ Form Data:
 }
 ```
 
-### 获取数据集版本列表
+### 获取数据集版本列�?
 
 ```http
 GET /modeltraining/dataset/getVersionList
@@ -498,7 +498,7 @@ Query Parameters:
 - pageSize: 每页数量
 ```
 
-### 删除数据集版本
+### 删除数据集版�?
 
 ```http
 DELETE /modeltraining/dataset/deleteVersion?ID=1
@@ -519,10 +519,10 @@ Query Parameters:
 - page: 页码
 - pageSize: 每页数量
 - name: 任务名称（模糊搜索）
-- status: 任务状态（pending/running/completed/failed）
+- status: 任务状态（pending/running/completed/failed�?
 ```
 
-> 注：普通用户只能看到自己创建的任务，管理员可以看到所有任务。
+> 注：普通用户只能看到自己创建的任务，管理员可以看到所有任务�?
 
 ### 创建训练任务
 
@@ -589,7 +589,7 @@ GET /modeltraining/trainingTask/findTask?ID=1
 x-token: <your-token>
 ```
 
-**响应**：
+**响应**�?
 
 ```json
 {
@@ -635,7 +635,7 @@ x-token: <your-token>
 
 Query Parameters:
 - ID: 训练任务ID
-- tail: 返回行数（默认 100）
+- tail: 返回行数（默�?100�?
 ```
 
 ### 获取默认训练参数
@@ -645,7 +645,7 @@ GET /modeltraining/trainingTask/getDefaultParams
 x-token: <your-token>
 ```
 
-**响应**：
+**响应**�?
 
 ```json
 {
@@ -669,16 +669,16 @@ x-token: <your-token>
 
 ---
 
-## 仪表盘
+## 仪表�?
 
-### 获取仪表盘统计数据
+### 获取仪表盘统计数�?
 
 ```http
 GET /dashboard/stats
 x-token: <your-token>
 ```
 
-**响应**：
+**响应**�?
 
 ```json
 {
@@ -696,15 +696,15 @@ x-token: <your-token>
 
 ---
 
-## SSH 跳板机
+## SSH 跳板�?
 
-SSH 跳板机不通过 HTTP API 访问，而是通过 SSH 协议：
+SSH 跳板机不通过 HTTP API 访问，而是通过 SSH 协议�?
 
 ```bash
 ssh -p 2026 username@server-ip
 ```
 
-前端可通过以下 API 获取 SSH 连接信息：
+前端可通过以下 API 获取 SSH 连接信息�?
 
 ```http
 GET /instance/getSSHCommand
@@ -714,7 +714,7 @@ Query Parameters:
 - id: 实例 ID
 ```
 
-**响应**：
+**响应**�?
 
 ```json
 {
@@ -728,29 +728,29 @@ Query Parameters:
 
 ---
 
-## 错误码说明
+## 错误码说�?
 
-| 错误码 | 说明 |
+| 错误�?| 说明 |
 |--------|------|
 | 0 | 成功 |
 | 7 | 操作失败 |
 | 401 | 未授权（Token 无效或过期） |
 | 403 | 权限不足 |
-| 404 | 资源不存在 |
-| 500 | 服务器内部错误 |
+| 404 | 资源不存�?|
+| 500 | 服务器内部错�?|
 
 ---
 
 ## 完整 API 文档
 
-完整的 API 文档请访问 Swagger UI：
+完整�?API 文档请访�?Swagger UI�?
 
 ```
 http://localhost:8888/swagger/index.html
 ```
 
-Swagger 文档提供：
-- 所有 API 接口列表
+Swagger 文档提供�?
+- 所�?API 接口列表
 - 请求/响应参数详情
 - 在线测试功能
 
